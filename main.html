@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>𝕬𝖈𝖊 𝕲𝖆𝖒𝖊𝖘 - Unblocked</title>
+<style>
+@keyframes glow {
+  0% { text-shadow: 0 0 5px #00f, 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f; }
+  50% { text-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f, 0 0 40px #00f; }
+  100% { text-shadow: 0 0 5px #00f, 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f; }
+}
+
+@keyframes buttonHover {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  position: relative;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  animation: glow 1.5s infinite alternate;
+  font-family: 'Old English Text MT', serif;
+  margin-top: 50px;
+}
+
+h1:hover {
+  cursor: pointer;
+}
+
+.game-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 40px;
+  z-index: 1;
+}
+
+.game-category {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  margin: 20px 0;
+}
+
+.game {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid black;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  animation: buttonHover 1s ease-in-out infinite;
+}
+
+.game:hover {
+  background-color: lightblue;
+  transform: scale(1.05);
+}
+
+.game a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.game a:hover {
+  color: #00f;
+}
+
+/* Background blur only */
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  filter: blur(8px);
+  background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/51c71563-4aec-48e2-a1cd-cfa04fe6613b/dgy56oh-03ecde1e-5a1a-4f55-92e3-b88eff9e9a53.jpg/v1/fill/w_1920,h_1280,q_75,strp/stock_768_winterlandscape_by_einheit00_dgy56oh-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzUxYzcxNTYzLTRhZWMtNDhlMi1hMWNkLWNmYTA0ZmU2NjEzYlwvZGd5NTZvaC0wM2VjZGUxZS01YTFhLTRmNTUtOTJlMy1iODhlZmY5ZTlhNTMuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.2GbHtt-oKxvdWHKa3JM1VEuU8556s9_oa4uPuGhko-I') no-repeat center center;
+  background-size: cover;
+  opacity: 0.7;
+}
+
+/* Styling for the message */
+.message {
+  font-size: 18px;
+  color: white;
+  margin-top: 30px;
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+
+<div class="background"></div>
+
+<h1>𝕬𝖈𝖊 𝕲𝖆𝖒𝖊𝖘</h1>
+
+<!-- Non-ROM Games -->
+<div class="game-category">Non-ROM Games</div>
+
+<div class="game-container">
+  <div class="game">
+    <a href="javascript:void(0)" onclick="openGame('https://chill-guy.reprap.eu/game/rooftop-snipers/index.html')">Rooftop Snipers 🏙️ (2 Player Game)</a>
+  </div>
+  <div class="game">
+    <a href="javascript:void(0)" onclick="openGame('https://chill-guy.reprap.eu/game/temple-run/index.html')">Temple Run 🏃‍♂️ (Endless Runner)</a>
+  </div>
+  <div class="game">
+    <a href="javascript:void(0)" onclick="openGame('https://chill-guy.reprap.eu/game/drive-mad/index.html')">Drive Mad 🚗 (Driving Game)</a>
+  </div>
+  <div class="game">
+    <a href="javascript:void(0)" onclick="openGame('https://chill-guy.reprap.eu/game/retro-bowl/index.html')">Retro Bowl 🏈 (Sports Game)</a>
+  </div>
+  <div class="game">
+    <a href="javascript:void(0)" onclick="openGame('https://chill-guy.reprap.eu/game/motox3m2/index.html')">MotoX3M 🏍️ (Racing Game)</a>
+  </div>
+  <div class="game">
+    <a href="javascript:void(0)" onclick="openGame('https://chill-guy.reprap.eu/game/vex6/index.html')">Vex 6 🏃 (Obby Game)</a>
+  </div>
+  <div class="game">
+    <a href="javascript:void(0)" onclick="openGame('https://chill-guy.reprap.eu/game/monkey-mart/index.html')">Monkey Mart 🐵 (Simulation Game)</a>
+  </div>
+  <div class="game">
+    <a href="javascript:void(0)" onclick="openGame('https://chill-guy.reprap.eu/game/bob-the-robber-2/index.html')">Bob The Robber 2 🕵️‍♂️ (Stealth/Puzzle Game)</a>
+  </div>
+  <div class="game">
+    <a href="javascript:void(0)" onclick="openGame('https://chill-guy.reprap.eu/game/slope/index.html')">Slope 🎮 (Endless Runner)</a>
+  </div>
+  <div class="game">
+    <a href="javascript:void(0)" onclick="openGame('https://chill-guy.reprap.eu/game/gunspin/index.html')">Gunspin 🔫 (Shooting Game)</a>
+  </div>
+  <div class="game">
+    <a href="javascript:void(0)" onclick="openGame('https://chill-guy.reprap.eu/game/eggy-car/index.html')">Eggy Car 🍳 (Driving Game)</a>
+  </div>
+  <div class="game">
+    <a href="javascript:void(0)" onclick="openGame('https://chill-guy.reprap.eu/game/stickman-hook/index.html')">Stickman Hook 🪝 (Obby Game)</a>
+  </div>
+  <div class="game">
+    <a href="javascript:void(0)" onclick="openGame('https://chill-guy.reprap.eu/game/paperio2/index.html')">Paper.IO 2 📄 (IO Game)</a>
+  </div>
+  <div class="game">
+    <a href="javascript:void(0)" onclick="openGame('https://chill-guy.reprap.eu/game/subway-surfers/index.html')">Subway Surfers 🚇 (Endless Runner)</a>
+  </div>
+  <div class="game">
+    <a href="javascript:void(0)" onclick="openGame('https://chill-guy.reprap.eu/game/among-us/index.html')">Among Us 👽 (Multiplayer/Social Deduction)</a>
+  </div>
+  <div class="game">
+    <a href="javascript:void(0)" onclick="openGame('https://chill-guy.reprap.eu/game/tiny-fishing/index.html')">Tiny Fishing 🎣 (Casual Game)</a>
+  </div>
+  <div class="game">
+    <a href="javascript:void(0)" onclick="openGame('https://chill-guy.reprap.eu/game/cookie-clicker/index.html')">Cookie Clicker 🍪 (Idle Game)</a>
+  </div>
+  <div class="game">
+    <a href="javascript:void(0)" onclick="openGame('https://chill-guy.reprap.eu/game/aquapark-slides/index.html')">Aquapark Slides 🌊 (Water/Sliding Game)</a>
+  </div>
+</div>
+
+<!-- ROM/Emulator Games -->
+<div class="game-category">ROM Games 🎮</div>
+
+<div class="game-container">
+  <div class="game">
+    <a href="javascript:void(0)" onclick="openGame('https://chill-guy.reprap.eu/game/emulated/gtaa/index.html')">GTA 2 🚔 (Shooting Game)</a>
+  </div>
+  <div class="game">
+    <a href="javascript:void(0)" onclick="openGame('https://chill-guy.reprap.eu/game/emulated/donkeykong/index.html')">Donkey Kong 🦍 (Arcade Game)</a>
+  </div>
+  <div class="game">
+    <a href="javascript:void(0)" onclick="openGame('https://chill-guy.reprap.eu/game/emulated/crashbandicoot/index.html')">Crash Bandicoot 🐾 (Platformer)</a>
+  </div>
+  <div class="game">
+    <a href="javascript:void(0)" onclick="openGame('https://chill-guy.reprap.eu/game/emulated/streetfighteralpha/index.html')">Street Fighter Alpha 👊 (Fighting Game)</a>
+  </div>
+  <div class="game">
+    <a href="javascript:void(0)" onclick="openGame('https://chill-guy.reprap.eu/game/emulated/lola/index.html')">Legend of Zelda 🏰 (Adventure Game)</a>
+  </div>
+  <div class="game">
+    <a href="javascript:void(0)" onclick="openGame('https://chill-guy.reprap.eu/game/emulated/sa3/index.html')">Sonic Advance 3 🦔 (Platformer)</a>
+  </div>
+  <div class="game">
+    <a href="javascript:void(0)" onclick="openGame('https://chill-guy.reprap.eu/game/emulated/mario4/index.html')">Super Mario Advance 4 🍄 (Platformer)</a>
+  </div>
+</div>
+
+<!-- Message about more games -->
+<div class="message">
+  <p>We will add more games, don’t worry about it! Stay tuned! 🎮</p>
+</div>
+
+<script>
+  function openGame(url) {
+    const previewWindow = window.open('', '_blank', 'width=800,height=600');
+    previewWindow.document.write(`
+      <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Game Preview</title>
+        <style>
+          body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+          }
+          .preview-container {
+            position: relative;
+            width: 80%;
+            height: 80%;
+            margin: 5% auto;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+          }
+          iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+          }
+        </style>
+      </head>
+      <body>
+        <div class="preview-container">
+          <iframe src="${url}" allowfullscreen></iframe>
+        </div>
+      </body>
+      </html>
+    `);
+  }
+</script>
+
+</body>
+</html>
